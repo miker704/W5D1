@@ -42,12 +42,14 @@ class IntSet
   end
 
   def insert(num)
+
   end
 
   def remove(num)
   end
 
   def include?(num)
+    return @store.include?(num)
   end
 
   private
